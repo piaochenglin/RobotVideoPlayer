@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RobotVideoPlayer</string>
+    <string name="splash_text">loading now ...</string>
+    <string name="splash_image">splash image</string>
+</resources>
