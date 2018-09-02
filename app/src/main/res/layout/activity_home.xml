@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!-- 标题 -->
+
+    <!--页面-->
+    <FrameLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <!--页面选项-->
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HomeActivity"/>
+        android:gravity="center"
+        android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+        <RadioButton
+            android:id="@+id/rb_video"
+            style="@style/common_rb_settings"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_tab_video_selector"
+            android:text="@string/home_video" />
+
+        <RadioButton
+            android:id="@+id/rb_audio"
+            style="@style/common_rb_settings"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_tab_audio_selector"
+            android:text="@string/home_audio" />
+
+        <RadioButton
+            android:id="@+id/rb_net_video"
+            style="@style/common_rb_settings"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_tab_net_video_selector"
+            android:text="@string/home_net_video" />
+
+        <RadioButton
+            android:id="@+id/rb_net_audio"
+            style="@style/common_rb_settings"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_tab_net_audio_selector"
+            android:text="@string/home_net_audio" />
+    </RadioGroup>
+</LinearLayout>

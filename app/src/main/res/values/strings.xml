@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">RobotVideoPlayer</string>
-    <string name="splash_text">loading now ...</string>
+    <string name="splash_text">loading now &#8323;</string>
     <string name="splash_image">splash image</string>
+    <string name="home_video">本地视频</string>
+    <string name="home_audio">本地音频</string>
+    <string name="home_net_video">网络视频</string>
+    <string name="home_net_audio">网络音频</string>
 </resources>
