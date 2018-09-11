@@ -6,4 +6,6 @@
     <string name="home_audio">本地音频</string>
     <string name="home_net_video">网络视频</string>
     <string name="home_net_audio">网络音频</string>
+    <string name="header_text">全网搜索</string>
+    <string name="not_found_local_video">没有找到本地视频</string>
 </resources>

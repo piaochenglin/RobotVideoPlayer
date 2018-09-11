@@ -6,7 +6,13 @@
         <item name="colorPrimaryDark">@android:color/white</item>
     </style>
 
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <style name="NoTitle" parent="AppTheme">
+        <item name="colorPrimaryDark">#ff2679ca</item>
         <item name="windowNoTitle">true</item>
     </style>
 

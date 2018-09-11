@@ -5,6 +5,7 @@
     android:orientation="vertical">
 
     <!-- 标题 -->
+    <include layout="@layout/header"/>
 
     <!--页面-->
     <FrameLayout

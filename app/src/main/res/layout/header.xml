@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.robotheart.robotvideoplayer.view.HeaderBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#ff3097fd"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_top_banner_logo" />
+
+    <TextView
+        android:id="@+id/header_tv_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/header_text_background_color_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/header_icon_selector"
+        android:drawablePadding="3dp"
+        android:drawableStart="@drawable/header_icon_selector"
+        android:focusable="true"
+        android:text="@string/header_text"
+        android:textColor="@drawable/header_text_color_selector"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/header_rl_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:id="@+id/header_game_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_top_banner_game"
+            android:drawableStart="@drawable/ic_top_banner_game" />
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_alignEnd="@+id/header_game_image"
+            android:layout_alignRight="@+id/header_game_image"
+            android:background="@drawable/header_game_dot" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/header_history_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/ic_top_banner_record" />
+
+</com.robotheart.robotvideoplayer.view.HeaderBar>
